@@ -1,6 +1,6 @@
 package sjm.combinatorics;
 
-import java.util.*;
+import java.util.Comparator;
 
 /*
  * Copyright (c) 2000 Steven J. Metsker. All Rights Reserved.
@@ -26,16 +26,6 @@ import java.util.*;
  */
 
 public class NewPermutations   {
-
-
-
-
-
-
-
-
-
-
 
 	public static Comparator comparableComparator;
 

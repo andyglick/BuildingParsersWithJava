@@ -13,7 +13,7 @@ package sjm.examples.sling;
  * another source function.
  * <p>
  * The absolute value of x is just x if x is positive, and 
- * is –x if x is negative.
+ * is -x if x is negative.
  *
  * @author Steven J. Metsker
  *

@@ -5,17 +5,17 @@ import sjm.combinatorics.*;
 /**
  * Each of four martial arts students has a different 
  * specialty. From the following clues, can you determine 
- * each student’s full name and her special skill?
+ * each student's full name and her special skill?
  * <ol>
  * <li>Ms. Ellis (whose instructor is Mr. Caldwell), Amy, and
  *     Ms. Fowler are all martial arts students.
- * <li>Sparring isn’t the specialty of either Carla or 
+ * <li>Sparring isn't the specialty of either Carla or
  *     Dianne.
  * <li>Neither the shoot-fighting expert nor the pressure 
  *     point fighter is named Fowler.
- * <li>Children’s techniques aren’t the specialty of Dianne
+ * <li>Children's techniques aren't the specialty of Dianne
  *     (whose instructor is Ms. Sherman).
- * <li>Amy, who disdains pressure point fighting, isn’t 
+ * <li>Amy, who disdains pressure point fighting, isn't
  *     Ms. Goodrich.
  * <li>Betti and Ms. Fowler are roommates.
  * <li>Ms. Hightower avoids sparring because of its point 

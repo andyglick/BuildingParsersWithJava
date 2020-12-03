@@ -1,28 +1,30 @@
 package sjm.examples.tests;
 
+import org.junit.Test;
+
 import sjm.examples.logic.LogikusParser;
 import sjm.parse.tokens.TokenTester;
 
 /*
  * Copyright (c) 2000 Steven J. Metsker. All Rights Reserved.
- * 
+ *
  * Steve Metsker makes no representations or warranties about
- * the fitness of this software for any particular purpose, 
+ * the fitness of this software for any particular purpose,
  * including the implied warranty of merchantability.
  */
 
 /**
  * Test the <code>Logikus</code> parser class.
- * 
+ *
  * @author Steven J. Metsker
- * 
- * @version 1.0 
+ * @version 1.0
  */
-public class ShowLogikusTester {
-/**
- * Test the <code>LogikusParser</code> parser class.
- */
-public static void main(String[] args) {
-	new TokenTester(LogikusParser.start()).test();
-}
+public class ShowLogikusTest {
+    /**
+     * Test the <code>LogikusParser</code> parser class.
+     */
+    @Test
+    public void testShowLogikus() {
+        new TokenTester(LogikusParser.start()).test();
+    }
 }

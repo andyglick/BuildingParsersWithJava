@@ -14,7 +14,7 @@ import sjm.parse.tokens.*;
 /**
  * This class provides a parser that recognizes 
  * arithmetic expressions. This class includes the method 
- * <code>value</code>, which is a "façade" that provides an 
+ * <code>value</code>, which is a "facade" that provides an
  * example and makes the parser easy to use. For example,
  * 
  * <blockquote><pre>
@@ -233,7 +233,7 @@ protected Parser timesFactor() {
 }
 /**
  * Return the value of an arithmetic expression given in a
- * string. This method is a façade, which provides an 
+ * string. This method is a facade, which provides an
  * example of how to use the parser.
  *
  * @return the value of an arithmetic expression given in a
